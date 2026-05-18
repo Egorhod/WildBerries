@@ -1,0 +1,59 @@
+[Thu Feb 19 00:23:56.399555 2026] [ssl:warn] [pid 15340:tid 716] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Feb 19 00:23:56.402556 2026] [lbmethod_heartbeat:notice] [pid 15340:tid 716] AH02282: No slotmem from mod_heartmonitor
+[Thu Feb 19 00:23:56.477556 2026] [mpm_winnt:notice] [pid 15340:tid 716] AH00455: Apache/2.4.33 (Win64) OpenSSL/1.0.2u mod_fcgid/2.3.9 PHP/8.3.1 configured -- resuming normal operations
+[Thu Feb 19 00:23:56.477556 2026] [mpm_winnt:notice] [pid 15340:tid 716] AH00456: Server built: Jul  6 2021 12:22:16
+[Thu Feb 19 00:23:56.477556 2026] [core:notice] [pid 15340:tid 716] AH00094: Command line: 'D:\\MAMP\\\\bin\\apache\\bin\\httpd.exe -d D:/MAMP/bin/apache -f D:\\MAMP\\\\conf\\apache\\httpd.conf'
+[Thu Feb 19 00:23:56.487556 2026] [mpm_winnt:notice] [pid 15340:tid 716] AH00418: Parent: Created child process 25324
+[Thu Feb 19 00:23:57.485246 2026] [ssl:warn] [pid 25324:tid 540] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Feb 19 00:23:57.486246 2026] [lbmethod_heartbeat:notice] [pid 25324:tid 540] AH02282: No slotmem from mod_heartmonitor
+[Thu Feb 19 00:23:57.524640 2026] [mpm_winnt:notice] [pid 25324:tid 540] AH00354: Child: Starting 64 worker threads.
+[Thu Feb 19 11:19:37.240084 2026] [core:warn] [pid 6696:tid 780] AH00098: pid file D:/MAMP/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Feb 19 11:19:37.418200 2026] [ssl:warn] [pid 6696:tid 780] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Feb 19 11:19:37.418200 2026] [lbmethod_heartbeat:notice] [pid 6696:tid 780] AH02282: No slotmem from mod_heartmonitor
+[Thu Feb 19 11:19:37.796065 2026] [mpm_winnt:notice] [pid 6696:tid 780] AH00455: Apache/2.4.33 (Win64) OpenSSL/1.0.2u mod_fcgid/2.3.9 PHP/8.3.1 configured -- resuming normal operations
+[Thu Feb 19 11:19:37.796065 2026] [mpm_winnt:notice] [pid 6696:tid 780] AH00456: Server built: Jul  6 2021 12:22:16
+[Thu Feb 19 11:19:37.796065 2026] [core:notice] [pid 6696:tid 780] AH00094: Command line: 'D:\\MAMP\\\\bin\\apache\\bin\\httpd.exe -d D:/MAMP/bin/apache -f D:\\MAMP\\\\conf\\apache\\httpd.conf'
+[Thu Feb 19 11:19:37.803997 2026] [mpm_winnt:notice] [pid 6696:tid 780] AH00418: Parent: Created child process 13372
+[Thu Feb 19 11:19:38.956740 2026] [ssl:warn] [pid 13372:tid 216] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Feb 19 11:19:38.959741 2026] [lbmethod_heartbeat:notice] [pid 13372:tid 216] AH02282: No slotmem from mod_heartmonitor
+[Thu Feb 19 11:19:39.024744 2026] [mpm_winnt:notice] [pid 13372:tid 216] AH00354: Child: Starting 64 worker threads.
+[Thu Feb 19 16:07:43.720290 2026] [core:warn] [pid 3520:tid 1072] AH00098: pid file D:/MAMP/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Feb 19 16:07:43.885861 2026] [ssl:warn] [pid 3520:tid 1072] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Feb 19 16:07:43.886879 2026] [lbmethod_heartbeat:notice] [pid 3520:tid 1072] AH02282: No slotmem from mod_heartmonitor
+[Thu Feb 19 16:07:44.004278 2026] [mpm_winnt:notice] [pid 3520:tid 1072] AH00455: Apache/2.4.33 (Win64) OpenSSL/1.0.2u mod_fcgid/2.3.9 PHP/8.3.1 configured -- resuming normal operations
+[Thu Feb 19 16:07:44.004278 2026] [mpm_winnt:notice] [pid 3520:tid 1072] AH00456: Server built: Jul  6 2021 12:22:16
+[Thu Feb 19 16:07:44.004278 2026] [core:notice] [pid 3520:tid 1072] AH00094: Command line: 'D:\\MAMP\\\\bin\\apache\\bin\\httpd.exe -d D:/MAMP/bin/apache -f D:\\MAMP\\\\conf\\apache\\httpd.conf'
+[Thu Feb 19 16:07:44.009346 2026] [mpm_winnt:notice] [pid 3520:tid 1072] AH00418: Parent: Created child process 4608
+[Thu Feb 19 16:07:44.623014 2026] [ssl:warn] [pid 4608:tid 540] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Thu Feb 19 16:07:44.625056 2026] [lbmethod_heartbeat:notice] [pid 4608:tid 540] AH02282: No slotmem from mod_heartmonitor
+[Thu Feb 19 16:07:44.654122 2026] [mpm_winnt:notice] [pid 4608:tid 540] AH00354: Child: Starting 64 worker threads.
+[Sun Feb 22 22:43:39.246437 2026] [core:warn] [pid 6408:tid 592] AH00098: pid file D:/MAMP/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Feb 22 22:43:39.479480 2026] [ssl:warn] [pid 6408:tid 592] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Feb 22 22:43:39.480478 2026] [lbmethod_heartbeat:notice] [pid 6408:tid 592] AH02282: No slotmem from mod_heartmonitor
+[Sun Feb 22 22:43:39.651830 2026] [mpm_winnt:notice] [pid 6408:tid 592] AH00455: Apache/2.4.33 (Win64) OpenSSL/1.0.2u mod_fcgid/2.3.9 PHP/8.3.1 configured -- resuming normal operations
+[Sun Feb 22 22:43:39.651830 2026] [mpm_winnt:notice] [pid 6408:tid 592] AH00456: Server built: Jul  6 2021 12:22:16
+[Sun Feb 22 22:43:39.651830 2026] [core:notice] [pid 6408:tid 592] AH00094: Command line: 'D:\\MAMP\\\\bin\\apache\\bin\\httpd.exe -d D:/MAMP/bin/apache -f D:\\MAMP\\\\conf\\apache\\httpd.conf'
+[Sun Feb 22 22:43:39.658362 2026] [mpm_winnt:notice] [pid 6408:tid 592] AH00418: Parent: Created child process 14084
+[Sun Feb 22 22:43:40.498434 2026] [ssl:warn] [pid 14084:tid 560] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Sun Feb 22 22:43:40.501003 2026] [lbmethod_heartbeat:notice] [pid 14084:tid 560] AH02282: No slotmem from mod_heartmonitor
+[Sun Feb 22 22:43:40.542589 2026] [mpm_winnt:notice] [pid 14084:tid 560] AH00354: Child: Starting 64 worker threads.
+[Mon Mar 09 11:04:44.087901 2026] [core:warn] [pid 2468:tid 636] AH00098: pid file D:/MAMP/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Mar 09 11:04:44.279641 2026] [ssl:warn] [pid 2468:tid 636] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Mar 09 11:04:44.282649 2026] [lbmethod_heartbeat:notice] [pid 2468:tid 636] AH02282: No slotmem from mod_heartmonitor
+[Mon Mar 09 11:04:44.433305 2026] [mpm_winnt:notice] [pid 2468:tid 636] AH00455: Apache/2.4.33 (Win64) OpenSSL/1.0.2u mod_fcgid/2.3.9 PHP/8.3.1 configured -- resuming normal operations
+[Mon Mar 09 11:04:44.433305 2026] [mpm_winnt:notice] [pid 2468:tid 636] AH00456: Server built: Jul  6 2021 12:22:16
+[Mon Mar 09 11:04:44.433305 2026] [core:notice] [pid 2468:tid 636] AH00094: Command line: 'D:\\MAMP\\\\bin\\apache\\bin\\httpd.exe -d D:/MAMP/bin/apache -f D:\\MAMP\\\\conf\\apache\\httpd.conf'
+[Mon Mar 09 11:04:44.440360 2026] [mpm_winnt:notice] [pid 2468:tid 636] AH00418: Parent: Created child process 19256
+[Mon Mar 09 11:04:45.471126 2026] [ssl:warn] [pid 19256:tid 560] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Mon Mar 09 11:04:45.473129 2026] [lbmethod_heartbeat:notice] [pid 19256:tid 560] AH02282: No slotmem from mod_heartmonitor
+[Mon Mar 09 11:04:45.545347 2026] [mpm_winnt:notice] [pid 19256:tid 560] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 14 11:58:19.615558 2026] [core:warn] [pid 23672:tid 200] AH00098: pid file D:/MAMP/bin/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 14 11:58:19.784970 2026] [ssl:warn] [pid 23672:tid 200] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Apr 14 11:58:19.787977 2026] [lbmethod_heartbeat:notice] [pid 23672:tid 200] AH02282: No slotmem from mod_heartmonitor
+[Tue Apr 14 11:58:19.942798 2026] [mpm_winnt:notice] [pid 23672:tid 200] AH00455: Apache/2.4.33 (Win64) OpenSSL/1.0.2u mod_fcgid/2.3.9 PHP/8.3.1 configured -- resuming normal operations
+[Tue Apr 14 11:58:19.942798 2026] [mpm_winnt:notice] [pid 23672:tid 200] AH00456: Server built: Jul  6 2021 12:22:16
+[Tue Apr 14 11:58:19.942798 2026] [core:notice] [pid 23672:tid 200] AH00094: Command line: 'D:\\MAMP\\\\bin\\apache\\bin\\httpd.exe -d D:/MAMP/bin/apache -f D:\\MAMP\\\\conf\\apache\\httpd.conf'
+[Tue Apr 14 11:58:19.948972 2026] [mpm_winnt:notice] [pid 23672:tid 200] AH00418: Parent: Created child process 24080
+[Tue Apr 14 11:58:21.016380 2026] [ssl:warn] [pid 24080:tid 516] AH01873: Init: Session Cache is not configured [hint: SSLSessionCache]
+[Tue Apr 14 11:58:21.019383 2026] [lbmethod_heartbeat:notice] [pid 24080:tid 516] AH02282: No slotmem from mod_heartmonitor
+[Tue Apr 14 11:58:21.092929 2026] [mpm_winnt:notice] [pid 24080:tid 516] AH00354: Child: Starting 64 worker threads.

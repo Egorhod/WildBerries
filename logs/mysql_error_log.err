@@ -1,0 +1,393 @@
+2026-02-18T21:23:58.070746Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2026-02-18T21:23:58.070839Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2026-02-18T21:23:58.071199Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2026-02-18T21:23:58.071221Z 0 [Note] D:\MAMP\\bin\mysql\bin\mysqld.exe (mysqld 5.7.24) starting as process 22020 ...
+2026-02-18T21:23:58.078249Z 0 [Warning] You need to use --log-bin to make --binlog-format work.
+2026-02-18T21:23:58.080610Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-02-18T21:23:58.081273Z 0 [Note] InnoDB: Uses event mutexes
+2026-02-18T21:23:58.081679Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2026-02-18T21:23:58.082373Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2026-02-18T21:23:58.083306Z 0 [Note] InnoDB: Number of pools: 1
+2026-02-18T21:23:58.084104Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2026-02-18T21:23:58.087828Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2026-02-18T21:23:58.095296Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2026-02-18T21:23:58.127185Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-02-18T21:23:58.165705Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2026-02-18T21:23:58.167198Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2026-02-18T21:23:58.176590Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2026-02-18T21:23:58.179603Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2026-02-18T21:23:58.180560Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2026-02-18T21:23:58.181559Z 0 [Note] InnoDB: Waiting for purge to start
+2026-02-18T21:23:58.247360Z 0 [Note] InnoDB: 5.7.24 started; log sequence number 2589209
+2026-02-18T21:23:58.248205Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\MAMP\db\mysql\ib_buffer_pool
+2026-02-18T21:23:58.248331Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2026-02-18T21:23:58.253569Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:23:58.254156Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:23:58.257150Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2026-02-18T21:23:58.257890Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2026-02-18T21:23:58.258452Z 0 [Note] IPv6 is available.
+2026-02-18T21:23:58.258668Z 0 [Note]   - '::' resolves to '::';
+2026-02-18T21:23:58.259079Z 0 [Note] Server socket created on IP: '::'.
+2026-02-18T21:23:58.263585Z 0 [Note] InnoDB: Buffer pool(s) load completed at 260219  0:23:58
+2026-02-18T21:23:58.289068Z 0 [Note] Failed to start slave threads for channel ''
+2026-02-18T21:23:58.305485Z 0 [Note] Event Scheduler: Loaded 0 events
+2026-02-18T21:23:58.305827Z 0 [Note] D:\MAMP\\bin\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.7.24'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2026-02-18T21:23:58.457284Z 2 [Note] Got an error reading communication packets
+2026-02-18T21:23:59.078716Z 3 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2026-02-18T21:33:20.800666Z 36 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:33:20.801369Z 36 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:33:20.811327Z 36 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:33:20.818125Z 36 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:33:20.824044Z 36 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:33:20.824504Z 36 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:33:20.828583Z 36 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:33:20.829130Z 36 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:33:20.830985Z 36 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:33:20.831430Z 36 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:33:20.834278Z 36 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:33:20.834732Z 36 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:33:20.836237Z 36 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:33:20.836868Z 36 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:35:10.138238Z 68 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:35:10.138695Z 68 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:35:10.142595Z 68 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:35:10.143029Z 68 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:35:10.145821Z 68 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:35:10.146553Z 68 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:35:10.148949Z 68 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:35:10.149387Z 68 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:35:10.150727Z 68 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:35:10.151168Z 68 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:35:10.152510Z 68 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:35:10.152951Z 68 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:35:10.154082Z 68 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:35:10.154552Z 68 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:35:10.182765Z 68 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:35:10.183234Z 68 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-18T21:38:51.876562Z 86 [Note] Got an error reading communication packets
+2026-02-18T21:38:52.647122Z 87 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2026-02-18T21:38:54.789216Z 88 [Note] Got an error reading communication packets
+2026-02-18T21:38:54.811893Z 0 [Note] D:\MAMP\\bin\mysql\bin\mysqld.exe: Normal shutdown
+
+2026-02-18T21:38:54.812335Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2026-02-18T21:38:54.812647Z 0 [Note] Shutting down slave threads
+2026-02-18T21:38:54.812836Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2026-02-18T21:38:54.813127Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2026-02-18T21:38:54.813697Z 0 [Note] Binlog end
+2026-02-18T21:38:54.815313Z 0 [Note] Shutting down plugin 'ngram'
+2026-02-18T21:38:54.815546Z 0 [Note] Shutting down plugin 'partition'
+2026-02-18T21:38:54.815743Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2026-02-18T21:38:54.815938Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2026-02-18T21:38:54.816127Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2026-02-18T21:38:54.816374Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2026-02-18T21:38:54.816579Z 0 [Note] Shutting down plugin 'MyISAM'
+2026-02-18T21:38:54.816783Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2026-02-18T21:38:54.817005Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2026-02-18T21:38:54.817230Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2026-02-18T21:38:54.817507Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2026-02-18T21:38:54.817794Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2026-02-18T21:38:54.818062Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2026-02-18T21:38:54.818320Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2026-02-18T21:38:54.818534Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2026-02-18T21:38:54.818748Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2026-02-18T21:38:54.818969Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2026-02-18T21:38:54.819181Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2026-02-18T21:38:54.819412Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2026-02-18T21:38:54.819633Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2026-02-18T21:38:54.819842Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2026-02-18T21:38:54.820069Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2026-02-18T21:38:54.820279Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2026-02-18T21:38:54.820514Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2026-02-18T21:38:54.820716Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2026-02-18T21:38:54.820940Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2026-02-18T21:38:54.821170Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2026-02-18T21:38:54.821399Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2026-02-18T21:38:54.821613Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2026-02-18T21:38:54.821848Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2026-02-18T21:38:54.822067Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2026-02-18T21:38:54.822284Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2026-02-18T21:38:54.822485Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2026-02-18T21:38:54.822694Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2026-02-18T21:38:54.822887Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2026-02-18T21:38:54.823102Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2026-02-18T21:38:54.823300Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2026-02-18T21:38:54.823493Z 0 [Note] Shutting down plugin 'InnoDB'
+2026-02-18T21:38:54.823751Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2026-02-18T21:38:54.824027Z 0 [Note] InnoDB: Starting shutdown...
+2026-02-18T21:38:54.935153Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\MAMP\db\mysql\ib_buffer_pool
+2026-02-18T21:38:54.936514Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 260219  0:38:54
+2026-02-18T21:38:56.034323Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2589237
+2026-02-18T21:38:56.035026Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2026-02-18T21:38:56.035512Z 0 [Note] Shutting down plugin 'MEMORY'
+2026-02-18T21:38:56.035858Z 0 [Note] Shutting down plugin 'CSV'
+2026-02-18T21:38:56.036188Z 0 [Note] Shutting down plugin 'sha256_password'
+2026-02-18T21:38:56.036545Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2026-02-18T21:38:56.037122Z 0 [Note] Shutting down plugin 'binlog'
+2026-02-18T21:38:56.038245Z 0 [Note] D:\MAMP\\bin\mysql\bin\mysqld.exe: Shutdown complete
+
+2026-02-19T08:19:39.174033Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2026-02-19T08:19:39.174822Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2026-02-19T08:19:39.178955Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2026-02-19T08:19:39.179045Z 0 [Note] D:\MAMP\\bin\mysql\bin\mysqld.exe (mysqld 5.7.24) starting as process 14296 ...
+2026-02-19T08:19:39.205165Z 0 [Warning] You need to use --log-bin to make --binlog-format work.
+2026-02-19T08:19:39.213610Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-02-19T08:19:39.214332Z 0 [Note] InnoDB: Uses event mutexes
+2026-02-19T08:19:39.214734Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2026-02-19T08:19:39.215701Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2026-02-19T08:19:39.221395Z 0 [Note] InnoDB: Number of pools: 1
+2026-02-19T08:19:39.224765Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2026-02-19T08:19:39.231471Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2026-02-19T08:19:39.245650Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2026-02-19T08:19:39.275930Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-02-19T08:19:39.341587Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2026-02-19T08:19:39.342566Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2026-02-19T08:19:39.365968Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2026-02-19T08:19:39.368647Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2026-02-19T08:19:39.369520Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2026-02-19T08:19:39.370630Z 0 [Note] InnoDB: Waiting for purge to start
+2026-02-19T08:19:39.436323Z 0 [Note] InnoDB: 5.7.24 started; log sequence number 2589237
+2026-02-19T08:19:39.437982Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\MAMP\db\mysql\ib_buffer_pool
+2026-02-19T08:19:39.438107Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2026-02-19T08:19:39.457624Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-19T08:19:39.458923Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-19T08:19:39.462808Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2026-02-19T08:19:39.463232Z 0 [Note] InnoDB: Buffer pool(s) load completed at 260219 11:19:39
+2026-02-19T08:19:39.464025Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2026-02-19T08:19:39.466001Z 0 [Note] IPv6 is available.
+2026-02-19T08:19:39.466431Z 0 [Note]   - '::' resolves to '::';
+2026-02-19T08:19:39.467076Z 0 [Note] Server socket created on IP: '::'.
+2026-02-19T08:19:39.544954Z 0 [Note] Failed to start slave threads for channel ''
+2026-02-19T08:19:39.609657Z 0 [Note] Event Scheduler: Loaded 0 events
+2026-02-19T08:19:39.610512Z 0 [Note] D:\MAMP\\bin\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.7.24'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2026-02-19T08:19:39.617631Z 2 [Note] Got an error reading communication packets
+2026-02-19T08:19:40.502002Z 3 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2026-02-19T09:14:11.531864Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2964885ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2026-02-19T09:14:51.345362Z 30 [Note] Got an error reading communication packets
+2026-02-19T09:14:51.447870Z 0 [Note] D:\MAMP\\bin\mysql\bin\mysqld.exe: Normal shutdown
+
+2026-02-19T09:14:51.448306Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2026-02-19T09:14:51.448646Z 0 [Note] Shutting down slave threads
+2026-02-19T09:14:51.449605Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2026-02-19T09:14:51.449895Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2026-02-19T09:14:51.450970Z 0 [Note] Binlog end
+2026-02-19T09:14:51.451853Z 0 [Note] Shutting down plugin 'ngram'
+2026-02-19T09:14:51.452558Z 0 [Note] Shutting down plugin 'partition'
+2026-02-19T09:14:51.452819Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2026-02-19T09:14:51.453056Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2026-02-19T09:14:51.453283Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2026-02-19T09:14:51.453567Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2026-02-19T09:14:51.454084Z 0 [Note] Shutting down plugin 'MyISAM'
+2026-02-19T09:14:51.454334Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2026-02-19T09:14:51.454598Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2026-02-19T09:14:51.454867Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2026-02-19T09:14:51.455142Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2026-02-19T09:14:51.455421Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2026-02-19T09:14:51.455684Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2026-02-19T09:14:51.455952Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2026-02-19T09:14:51.456214Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2026-02-19T09:14:51.456477Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2026-02-19T09:14:51.456750Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2026-02-19T09:14:51.457008Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2026-02-19T09:14:51.457280Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2026-02-19T09:14:51.457552Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2026-02-19T09:14:51.457813Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2026-02-19T09:14:51.458091Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2026-02-19T09:14:51.458349Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2026-02-19T09:14:51.458638Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2026-02-19T09:14:51.458887Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2026-02-19T09:14:51.459162Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2026-02-19T09:14:51.459443Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2026-02-19T09:14:51.459779Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2026-02-19T09:14:51.460082Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2026-02-19T09:14:51.460371Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2026-02-19T09:14:51.460640Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2026-02-19T09:14:51.460906Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2026-02-19T09:14:51.461153Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2026-02-19T09:14:51.461409Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2026-02-19T09:14:51.461688Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2026-02-19T09:14:51.461952Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2026-02-19T09:14:51.462196Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2026-02-19T09:14:51.462433Z 0 [Note] Shutting down plugin 'InnoDB'
+2026-02-19T09:14:51.463064Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2026-02-19T09:14:51.463376Z 0 [Note] InnoDB: Starting shutdown...
+2026-02-19T09:14:51.569951Z 0 [Note] InnoDB: Dumping buffer pool(s) to D:\MAMP\db\mysql\ib_buffer_pool
+2026-02-19T09:14:51.571397Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 260219 12:14:51
+2026-02-19T09:14:52.996521Z 0 [Note] InnoDB: Shutdown completed; log sequence number 2589265
+2026-02-19T09:14:52.997511Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2026-02-19T09:14:52.997841Z 0 [Note] Shutting down plugin 'MEMORY'
+2026-02-19T09:14:52.998067Z 0 [Note] Shutting down plugin 'CSV'
+2026-02-19T09:14:52.998283Z 0 [Note] Shutting down plugin 'sha256_password'
+2026-02-19T09:14:52.998548Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2026-02-19T09:14:52.998953Z 0 [Note] Shutting down plugin 'binlog'
+2026-02-19T09:14:53.001122Z 0 [Note] D:\MAMP\\bin\mysql\bin\mysqld.exe: Shutdown complete
+
+2026-02-19T13:07:45.320829Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2026-02-19T13:07:45.321539Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2026-02-19T13:07:45.322885Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2026-02-19T13:07:45.322910Z 0 [Note] D:\MAMP\\bin\mysql\bin\mysqld.exe (mysqld 5.7.24) starting as process 12576 ...
+2026-02-19T13:07:45.339252Z 0 [Warning] You need to use --log-bin to make --binlog-format work.
+2026-02-19T13:07:45.345060Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-02-19T13:07:45.345370Z 0 [Note] InnoDB: Uses event mutexes
+2026-02-19T13:07:45.345555Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2026-02-19T13:07:45.345829Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2026-02-19T13:07:45.348627Z 0 [Note] InnoDB: Number of pools: 1
+2026-02-19T13:07:45.350898Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2026-02-19T13:07:45.353921Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2026-02-19T13:07:45.359825Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2026-02-19T13:07:45.383507Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-02-19T13:07:45.432850Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2026-02-19T13:07:45.433656Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2026-02-19T13:07:45.444079Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2026-02-19T13:07:45.445377Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2026-02-19T13:07:45.445712Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2026-02-19T13:07:45.446229Z 0 [Note] InnoDB: Waiting for purge to start
+2026-02-19T13:07:45.499881Z 0 [Note] InnoDB: 5.7.24 started; log sequence number 2589265
+2026-02-19T13:07:45.500745Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\MAMP\db\mysql\ib_buffer_pool
+2026-02-19T13:07:45.501135Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2026-02-19T13:07:45.511603Z 0 [Note] InnoDB: Buffer pool(s) load completed at 260219 16:07:45
+2026-02-19T13:07:45.512066Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-19T13:07:45.512589Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-19T13:07:45.514622Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2026-02-19T13:07:45.515166Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2026-02-19T13:07:45.515651Z 0 [Note] IPv6 is available.
+2026-02-19T13:07:45.515820Z 0 [Note]   - '::' resolves to '::';
+2026-02-19T13:07:45.516093Z 0 [Note] Server socket created on IP: '::'.
+2026-02-19T13:07:45.551237Z 0 [Note] Failed to start slave threads for channel ''
+2026-02-19T13:07:45.597953Z 0 [Note] Event Scheduler: Loaded 0 events
+2026-02-19T13:07:45.598278Z 0 [Note] D:\MAMP\\bin\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.7.24'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2026-02-19T13:07:45.601333Z 2 [Note] Got an error reading communication packets
+2026-02-19T13:07:46.475839Z 3 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2026-02-19T14:26:27.063970Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 560401ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2026-02-19T15:33:35.406254Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1865149ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2026-02-19T16:53:40.591497Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3939994ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2026-02-19T21:23:44.532054Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 10799594ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2026-02-20T15:23:43.612163Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 64788010ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2026-02-22T19:43:41.100272Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2026-02-22T19:43:41.101024Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2026-02-22T19:43:41.103034Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2026-02-22T19:43:41.103083Z 0 [Note] D:\MAMP\\bin\mysql\bin\mysqld.exe (mysqld 5.7.24) starting as process 9364 ...
+2026-02-22T19:43:41.123577Z 0 [Warning] You need to use --log-bin to make --binlog-format work.
+2026-02-22T19:43:41.131786Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-02-22T19:43:41.132188Z 0 [Note] InnoDB: Uses event mutexes
+2026-02-22T19:43:41.132402Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2026-02-22T19:43:41.132743Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2026-02-22T19:43:41.136125Z 0 [Note] InnoDB: Number of pools: 1
+2026-02-22T19:43:41.139390Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2026-02-22T19:43:41.142990Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2026-02-22T19:43:41.152383Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2026-02-22T19:43:41.187803Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-02-22T19:43:41.191486Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2589284
+2026-02-22T19:43:41.192196Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2589293
+2026-02-22T19:43:41.192777Z 0 [Note] InnoDB: Database was not shutdown normally!
+2026-02-22T19:43:41.193224Z 0 [Note] InnoDB: Starting crash recovery.
+2026-02-22T19:43:41.389818Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2026-02-22T19:43:41.390258Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2026-02-22T19:43:41.390855Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2026-02-22T19:43:41.399243Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2026-02-22T19:43:41.400663Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2026-02-22T19:43:41.401108Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2026-02-22T19:43:41.401716Z 0 [Note] InnoDB: Waiting for purge to start
+2026-02-22T19:43:41.457754Z 0 [Note] InnoDB: 5.7.24 started; log sequence number 2589293
+2026-02-22T19:43:41.458879Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\MAMP\db\mysql\ib_buffer_pool
+2026-02-22T19:43:41.459164Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2026-02-22T19:43:41.473077Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-22T19:43:41.473078Z 0 [Note] InnoDB: Buffer pool(s) load completed at 260222 22:43:41
+2026-02-22T19:43:41.473994Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-02-22T19:43:41.476760Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2026-02-22T19:43:41.477331Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2026-02-22T19:43:41.478029Z 0 [Note] IPv6 is available.
+2026-02-22T19:43:41.478237Z 0 [Note]   - '::' resolves to '::';
+2026-02-22T19:43:41.478523Z 0 [Note] Server socket created on IP: '::'.
+2026-02-22T19:43:41.530073Z 0 [Note] Failed to start slave threads for channel ''
+2026-02-22T19:43:41.593848Z 0 [Note] Event Scheduler: Loaded 0 events
+2026-02-22T19:43:41.594344Z 0 [Note] D:\MAMP\\bin\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.7.24'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2026-02-22T19:43:41.725146Z 2 [Note] Got an error reading communication packets
+2026-02-22T19:43:42.130868Z 3 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2026-03-09T08:04:45.797851Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2026-03-09T08:04:45.799311Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2026-03-09T08:04:45.801039Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2026-03-09T08:04:45.801103Z 0 [Note] D:\MAMP\\bin\mysql\bin\mysqld.exe (mysqld 5.7.24) starting as process 19628 ...
+2026-03-09T08:04:45.827893Z 0 [Warning] You need to use --log-bin to make --binlog-format work.
+2026-03-09T08:04:45.836891Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-03-09T08:04:45.837609Z 0 [Note] InnoDB: Uses event mutexes
+2026-03-09T08:04:45.838036Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2026-03-09T08:04:45.838610Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2026-03-09T08:04:45.843163Z 0 [Note] InnoDB: Number of pools: 1
+2026-03-09T08:04:45.846926Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2026-03-09T08:04:45.852020Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2026-03-09T08:04:45.864101Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2026-03-09T08:04:45.899787Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-03-09T08:04:45.903648Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2589312
+2026-03-09T08:04:45.904395Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2589321
+2026-03-09T08:04:45.905167Z 0 [Note] InnoDB: Database was not shutdown normally!
+2026-03-09T08:04:45.905787Z 0 [Note] InnoDB: Starting crash recovery.
+2026-03-09T08:04:46.110492Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2026-03-09T08:04:46.110943Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2026-03-09T08:04:46.111579Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2026-03-09T08:04:46.120654Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2026-03-09T08:04:46.122506Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2026-03-09T08:04:46.123081Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2026-03-09T08:04:46.123832Z 0 [Note] InnoDB: Waiting for purge to start
+2026-03-09T08:04:46.182389Z 0 [Note] InnoDB: 5.7.24 started; log sequence number 2589321
+2026-03-09T08:04:46.183750Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\MAMP\db\mysql\ib_buffer_pool
+2026-03-09T08:04:46.184125Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2026-03-09T08:04:46.199413Z 0 [Note] InnoDB: Buffer pool(s) load completed at 260309 11:04:46
+2026-03-09T08:04:46.199587Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-03-09T08:04:46.200950Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-03-09T08:04:46.204789Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2026-03-09T08:04:46.205802Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2026-03-09T08:04:46.206564Z 0 [Note] IPv6 is available.
+2026-03-09T08:04:46.206860Z 0 [Note]   - '::' resolves to '::';
+2026-03-09T08:04:46.207251Z 0 [Note] Server socket created on IP: '::'.
+2026-03-09T08:04:46.266798Z 0 [Note] Failed to start slave threads for channel ''
+2026-03-09T08:04:46.350631Z 0 [Note] Event Scheduler: Loaded 0 events
+2026-03-09T08:04:46.351204Z 0 [Note] D:\MAMP\\bin\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.7.24'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2026-03-09T08:04:46.357516Z 2 [Note] Got an error reading communication packets
+2026-03-09T08:04:47.073902Z 3 [Note] Access denied for user 'root'@'localhost' (using password: NO)
+2026-04-14T08:58:21.340389Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2026-04-14T08:58:21.341886Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2026-04-14T08:58:21.344056Z 0 [ERROR] Cannot open Windows EventLog; check privileges, or start server with --log_syslog=0
+2026-04-14T08:58:21.344097Z 0 [Note] D:\MAMP\\bin\mysql\bin\mysqld.exe (mysqld 5.7.24) starting as process 25252 ...
+2026-04-14T08:58:21.369325Z 0 [Warning] You need to use --log-bin to make --binlog-format work.
+2026-04-14T08:58:21.378592Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2026-04-14T08:58:21.379083Z 0 [Note] InnoDB: Uses event mutexes
+2026-04-14T08:58:21.379405Z 0 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2026-04-14T08:58:21.380053Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2026-04-14T08:58:21.384271Z 0 [Note] InnoDB: Number of pools: 1
+2026-04-14T08:58:21.387475Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2026-04-14T08:58:21.392732Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2026-04-14T08:58:21.402457Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2026-04-14T08:58:21.444042Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2026-04-14T08:58:21.447581Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2589340
+2026-04-14T08:58:21.448037Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2589349
+2026-04-14T08:58:21.448541Z 0 [Note] InnoDB: Database was not shutdown normally!
+2026-04-14T08:58:21.448900Z 0 [Note] InnoDB: Starting crash recovery.
+2026-04-14T08:58:21.649546Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2026-04-14T08:58:21.650350Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2026-04-14T08:58:21.651285Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2026-04-14T08:58:21.661723Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2026-04-14T08:58:21.664455Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2026-04-14T08:58:21.666814Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2026-04-14T08:58:21.668544Z 0 [Note] InnoDB: Waiting for purge to start
+2026-04-14T08:58:21.728022Z 0 [Note] InnoDB: 5.7.24 started; log sequence number 2589349
+2026-04-14T08:58:21.729765Z 0 [Note] InnoDB: Loading buffer pool(s) from D:\MAMP\db\mysql\ib_buffer_pool
+2026-04-14T08:58:21.730279Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2026-04-14T08:58:21.745397Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-04-14T08:58:21.746607Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2026-04-14T08:58:21.746936Z 0 [Note] InnoDB: Buffer pool(s) load completed at 260414 11:58:21
+2026-04-14T08:58:21.750329Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2026-04-14T08:58:21.751123Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2026-04-14T08:58:21.752036Z 0 [Note] IPv6 is available.
+2026-04-14T08:58:21.752763Z 0 [Note]   - '::' resolves to '::';
+2026-04-14T08:58:21.753302Z 0 [Note] Server socket created on IP: '::'.
+2026-04-14T08:58:21.793291Z 0 [Note] Failed to start slave threads for channel ''
+2026-04-14T08:58:21.874333Z 0 [Note] Event Scheduler: Loaded 0 events
+2026-04-14T08:58:21.874869Z 0 [Note] D:\MAMP\\bin\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.7.24'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2026-04-14T08:58:21.917006Z 2 [Note] Got an error reading communication packets
+2026-04-14T08:58:22.548145Z 3 [Note] Access denied for user 'root'@'localhost' (using password: NO)
